@@ -1,0 +1,37 @@
+.chart-overview-page {
+    padding: 40px 200px;
+    background: url(../../../public/image/curvy_bg.jpg);
+    .chart-overview-body {
+        
+        background-color: white;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .chart-overview-header {
+        background: url("../../../public/image/chart_help.jpg");
+        height: 200px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        h1 {
+            font-weight: 600 !important;
+            font-size: 36px;
+            color: white;
+            filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 1));
+        }
+    }
+    h1 {
+        font-size: 2em;
+    }
+    .ant-row {
+        justify-content: center;
+    }
+}

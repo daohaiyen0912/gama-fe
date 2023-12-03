@@ -1,0 +1,65 @@
+.site-layout-background {
+  height: 100vh;
+}
+
+.ant-tabs-nav {
+  margin: 0 !important;
+}
+
+.ͼ2 .cm-gutters {
+  background-color: #fff !important;
+  border-color: #fff !important;
+  user-select: none;
+}
+.ant-layout {
+}
+
+.ant-menu-light.scroll-bar {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  border-radius: 20px;
+  height: 95% !important;
+  max-height: 100% !important;
+  overflow: hidden scroll;
+  width: 315px !important;
+}
+main.ant-layout-content {
+}
+
+.main-content_1 {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  .transform-component-module_content__uCDPE img {
+    max-height: 75vh;
+    width: auto;
+  }
+}
+.ant-layout-content {
+  background-color: #bdd4e7;
+  background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+}
+.ant-menu-root {
+  padding-top: 25px !important;
+}
+.media_comp {
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  height: 40px;
+  width: auto;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+  .step_text {
+    margin-right: 5px;
+  }
+}

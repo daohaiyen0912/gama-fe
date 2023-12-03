@@ -1,0 +1,38 @@
+.account-list-container {
+    padding: 50px 100px;
+    background: url(../../../public/image/admin_bg.webp);
+    .account-list {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-radius: 20px;
+        padding: 10px 20px;
+        max-height: 90vh;
+        overflow: auto;
+        .account-item {
+            display: grid;
+            grid-template-columns: 70px 100px 100px 100px 100px;
+            position: relative;
+            gap: 2%;
+            align-items: center;
+
+            div {
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+            img {
+                width: 100%;
+            }
+            .account-action {
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+                display: flex;
+                gap: 5px;
+            }
+        }
+    }
+}

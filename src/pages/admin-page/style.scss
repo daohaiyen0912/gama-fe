@@ -1,0 +1,45 @@
+.account-container {
+    width: 100%;
+    padding: 40px 100px;
+    background: url(../../../public/image/curvy_bg.jpg);
+    min-height: 80vh;
+    .form-body {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+    }
+    .profession {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        
+        .profession-item {
+            padding: 15px 25px;
+            background: white;
+            border-radius: 25px;
+        }
+    }
+
+    form {
+        padding: 15px 25px;
+        background: white;
+        border-radius: 25px;
+        filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
+        gap: 5%;
+        .form-col {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+        .gender-ava {
+            justify-content: space-between;
+            display: flex;
+            img {
+                width: 50%;
+            }
+        }
+    }
+}
