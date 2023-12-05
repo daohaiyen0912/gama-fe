@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/be/:match*",
+      "destination": "http://103.200.22.212/~librarym/public/api/:match*"
+    }
+  ]
+}
