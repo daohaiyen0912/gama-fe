@@ -59,7 +59,7 @@ const Simulation = (props) => {
     formData.append('xmlfile', new File([inputXml.xml], 'input.xml'));
     formData.append('framerate',framerate);
     formData.append('number_of_simulation',numberOfSimulation);
-    formData.append('runners', runners);
+    formData.append('runners', [...runners]);
     var max = 0;
     simulate(formData)
       .then((res) => {
