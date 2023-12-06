@@ -14,36 +14,36 @@ const menuItem = [
       { name: 'How to use', url: 'help' },
     ],
   },
-  {
-    name: 'Chart',
-    url: 'chart',
-    description: '',
-    child: [
-      { name: 'Overview', url: 'overview' },
-      { name: 'Create your own', url: 'create' },
-    ],
-  },
-  {
-    name: 'Research',
-    url: 'research',
-    description: '',
-  },
-  {
-    name: 'Initiative',
-    url: 'initiative',
-    description: '',
-    child: [
-      { name: 'Reach', url: 'reach' },
-      { name: 'Future event', url: 'event' },
-      { name: 'Resource', url: 'resource' },
-      { name: 'Team', url: 'team' },
-    ],
-  },
-  {
-    name: 'Forum',
-    url: 'forum',
-    description: '',
-  },
+  // {
+  //   name: 'Chart',
+  //   url: 'chart',
+  //   description: '',
+  //   child: [
+  //     { name: 'Overview', url: 'overview' },
+  //     { name: 'Create your own', url: 'create' },
+  //   ],
+  // },
+  // {
+  //   name: 'Research',
+  //   url: 'research',
+  //   description: '',
+  // },
+  // {
+  //   name: 'Initiative',
+  //   url: 'initiative',
+  //   description: '',
+  //   child: [
+  //     { name: 'Reach', url: 'reach' },
+  //     { name: 'Future event', url: 'event' },
+  //     { name: 'Resource', url: 'resource' },
+  //     { name: 'Team', url: 'team' },
+  //   ],
+  // },
+  // {
+  //   name: 'Forum',
+  //   url: 'forum',
+  //   description: '',
+  // },
   {
     name: 'Account',
     url: 'user',
