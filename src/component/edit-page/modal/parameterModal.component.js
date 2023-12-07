@@ -139,8 +139,8 @@ export const ParameterModal = (props) => {
                 cat: '103.14.49.193'
               },
               {
-                key: '192.168.88.129',
-                cat: '192.168.88.129'
+                key: '103.171.90.63',
+                cat: '103.171.90.63'
               },
             ]}
             value={runners}
