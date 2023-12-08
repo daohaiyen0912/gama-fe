@@ -2,7 +2,10 @@
   "rewrites": [
     {
       "source": "/be/:match*",
-      "destination": "http://103.200.22.212/~librarym/public/:match*"
+      "destination": "http://103.200.22.212/~librarym/public/:match*",
+      "headers" : {
+        "Timeout" : "60s"
+      }
     }
   ]
 }
