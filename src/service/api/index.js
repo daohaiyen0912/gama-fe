@@ -1,5 +1,9 @@
 import * as axios from 'axios';
 
+axios.interceptors.request.use(config => {
+  config.timeout = 1000*300; // Wait for 300 seconds before timing out
+  return config;
+});
 const axiosInstance = axios.create({
   baseURL: process.env.REACT_APP_HOST,
   
