@@ -6,7 +6,7 @@ axios.interceptors.request.use(config => {
 });
 const axiosInstance = axios.create({
   baseURL: process.env.REACT_APP_HOST,
-  
+  timeout :1000*300, // Wait for 300 seconds before timing out
   headers: {
     Authorization: 'Bearer ' + localStorage.getItem('token'),
     'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content,
